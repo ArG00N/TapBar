@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{DDCB3A3B-1B7D-4F45-99B1-994C44779909}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TapBar/TapBar.xaml.cs">
+    <Files>
+      <File FileName="TapBar/MainPage.xaml" Line="11" Column="23" />
+      <File FileName="TapBar/MainPage.xaml.cs" Line="20" Column="14" />
+      <File FileName="TapBar/TapBar.xaml" Line="16" Column="7" />
+      <File FileName="TapBar/obj/Debug/netstandard2.0/MainPage.xaml.g.cs" Line="25" Column="1" />
+      <File FileName="TapBar/obj/Debug/netstandard2.0/TapBar.xaml.g.cs" Line="45" Column="1" />
+      <File FileName="TapBar/App.xaml.cs" Line="13" Column="1" />
+      <File FileName="TapBar.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="TapBar.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="TapBar/App.xaml" Line="1" Column="1" />
+      <File FileName="TapBar/TapBar.xaml.cs" Line="143" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TapBar" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TapBar.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A4431E0E-0239-43F8-A46E-E96019DB1C0B" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TapBar.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

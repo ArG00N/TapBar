@@ -1,0 +1,15 @@
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/TapBar.csprojAssemblyReference.cache
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/TapBar.xaml.g.cs
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/TapBar.csproj.CoreCompileInputs.cache
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/TapBar.AssemblyInfoInputs.cache
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/TapBar.AssemblyInfo.cs
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/TapBar.dll
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/ref/TapBar.dll
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/TapBar.pdb
+/Users/stackoverflow/Projects/TapBar/TapBar/bin/Debug/netstandard2.0/TapBar.deps.json
+/Users/stackoverflow/Projects/TapBar/TapBar/bin/Debug/netstandard2.0/TapBar.dll
+/Users/stackoverflow/Projects/TapBar/TapBar/bin/Debug/netstandard2.0/ref/TapBar.dll
+/Users/stackoverflow/Projects/TapBar/TapBar/bin/Debug/netstandard2.0/TapBar.pdb
+/Users/stackoverflow/Projects/TapBar/TapBar/obj/Debug/netstandard2.0/XamlC.stamp

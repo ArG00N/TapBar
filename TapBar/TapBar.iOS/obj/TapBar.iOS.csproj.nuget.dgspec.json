@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/stackoverflow/Projects/TapBar/TapBar.iOS/TapBar.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/stackoverflow/Projects/TapBar/TapBar.iOS/TapBar.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stackoverflow/Projects/TapBar/TapBar.iOS/TapBar.iOS.csproj",
+        "projectName": "TapBar.iOS",
+        "projectPath": "/Users/stackoverflow/Projects/TapBar/TapBar.iOS/TapBar.iOS.csproj",
+        "packagesPath": "/Users/stackoverflow/.nuget/packages/",
+        "outputPath": "/Users/stackoverflow/Projects/TapBar/TapBar.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/stackoverflow/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/stackoverflow/Projects/TapBar/TapBar/TapBar.csproj": {
+                "projectPath": "/Users/stackoverflow/Projects/TapBar/TapBar/TapBar.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/stackoverflow/Projects/TapBar/TapBar/TapBar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stackoverflow/Projects/TapBar/TapBar/TapBar.csproj",
+        "projectName": "TapBar",
+        "projectPath": "/Users/stackoverflow/Projects/TapBar/TapBar/TapBar.csproj",
+        "packagesPath": "/Users/stackoverflow/.nuget/packages/",
+        "outputPath": "/Users/stackoverflow/Projects/TapBar/TapBar/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/stackoverflow/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView x:Class="TapBar.TapBar"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="View">
+    <ContentView.Content>
+        <StackLayout>
+            <Grid x:Name="BarGrid">
+                <Frame x:Name="BoxView"
+                       Grid.Row="0"
+                       BackgroundColor="#006eb4"
+                       CornerRadius="15"
+                       HasShadow="false" />
+                <FlexLayout x:Name="FlexLayout"
+                            Grid.Row="0"
+                            BackgroundColor="Transparent"
+                            BindableLayout.ItemsSource="{Binding Taps.Items, Mode=TwoWay, Source={x:Reference View}}"
+                            Direction="Row"
+                            JustifyContent="SpaceEvenly">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BackgroundColor="Transparent"
+                                   BorderColor="#006eb4"
+                                   CornerRadius="15"
+                                   FlexLayout.Grow="1"
+                                   HasShadow="false">
+                                <Label Text="{Binding Title}"
+                                       TextColor="White"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" />
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Handle_Tapped" TappedCallbackParameter="{Binding}" />
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </Grid>
+            <ContentView x:Name="ContentView" />
+        </StackLayout>
+
+    </ContentView.Content>
+</ContentView>

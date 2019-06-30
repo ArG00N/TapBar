@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="TapBar.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:local="clr-namespace:TapBar"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+    <Grid Margin="0,20,0,0">
+        <!--  Place new controls here  -->
+        <local:TapBar BindingContext="{Binding}">
+            <local:TapBar.Taps>
+                <local:TapItemCollection>
+                    <local:TapItem Title="Content 1" Context="{Binding Prop1}">
+                        <local:TapItem.TapTemplate>
+                            <DataTemplate>
+                                <ContentView Padding="10" HeightRequest="500" VerticalOptions="Fill">
+                                    <Frame BackgroundColor="Yellow" BorderColor="Aqua">
+                                        <Label Text="{Binding Prop1}"
+                                               TextColor="Red"
+                                               HorizontalOptions="Center"
+                                               VerticalOptions="Center" />
+                                    </Frame>
+                                </ContentView>
+
+                            </DataTemplate>
+                        </local:TapItem.TapTemplate>
+                    </local:TapItem>
+                    <local:TapItem Title="Content 2" Context="{Binding Prop2}">
+                        <local:TapItem.TapTemplate>
+                            <DataTemplate>
+                                <Label Text="{Binding Prop2}" />
+                            </DataTemplate>
+                        </local:TapItem.TapTemplate>
+                    </local:TapItem>
+                    <local:TapItem Title="Content 2" Context="{Binding Prop3}">
+                        <local:TapItem.TapTemplate>
+                            <DataTemplate>
+                                <Label Text="{Binding Prop3}" />
+                            </DataTemplate>
+                        </local:TapItem.TapTemplate>
+                    </local:TapItem>
+                    <local:TapItem Title="Content 2" Context="{Binding Prop4}">
+                        <local:TapItem.TapTemplate>
+                            <DataTemplate>
+                                <Label Text="{Binding Prop4}" />
+                            </DataTemplate>
+                        </local:TapItem.TapTemplate>
+                    </local:TapItem>
+                </local:TapItemCollection>
+            </local:TapBar.Taps>
+        </local:TapBar>
+    </Grid>
+</ContentPage>
